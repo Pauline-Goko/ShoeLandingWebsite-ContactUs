@@ -1,0 +1,121 @@
+
+.body{
+    background-color: rgb(238, 234, 234);
+}
+
+
+
+.nav1 ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 1.1%;
+  
+
+ }
+
+.nav2 ul li{
+     list-style-type: none;
+    font-weight: bold;
+   float: right;
+   margin-right: 3%;
+  position: relative;
+  bottom: 34px;
+
+} 
+
+.div2{
+    text-align: center;
+}
+
+
+#button1{
+    margin-left: 45%;
+    height: 40px;
+    width: 150px;
+    background-image: linear-gradient(to right, rgb(236, 48, 48),rgb(243, 163, 14));
+    font-size: 1em;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#heading{
+    font-size: 2.3em;
+}
+
+
+#table3{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border-style: hidden;
+    font-size: 1em;
+    
+}
+
+#table4{
+    width: 400px;
+    height: 180px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: start;
+    border-style: hidden;
+    font-size: 1em;
+
+}
+
+#icon1{
+    margin-left: 5%;
+    
+}
+
+#icon2{
+    position: absolute;
+    padding-left: 175px;
+    padding-top: 12px;
+}
+#color{
+    color: rgb(240, 14, 14);
+}
+
+@media (max-width: 700px){
+
+
+#heading{
+    font-size: 1em;
+    margin-right: 25%;
+}
+
+#table3{
+    width: 250px;
+    margin-right: 25%;
+}
+
+#icon2{
+    margin-left: -31%;
+    
+}
+#table4{
+    width: 250px;
+    margin-right: 25%;
+}
+
+#button1{
+    margin-left: 15%;
+}
+.nav1 ul li{
+    display: grid;
+}
+.nav2 ul li{
+    float: left;
+    margin-top: 1.4em;
+    
+}
+
+}
+
+
+
+
+
